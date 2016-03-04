@@ -10,11 +10,11 @@ Dependency
 
 To include the Kafka plugins into your `sbt` project, add the following lines to your `build.sbt` file:
 
-    resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
+    resolvers += "jitpack" at "https://jitpack.io
 
-    libraryDependencies += "com.github.krasserm" %% "akka-persistence-kafka" % “0.4”
+    libraryDependencies += "com.github.brokersquare" %% "akka-persistence-kafka" % “0.4”
 
-This version of `akka-persistence-kafka` depends on Kafka 0.8.2.1, Akka 2.3.11 and is cross-built against Scala 2.10.4 and 2.11.6. A complete list of released versions is [here](https://github.com/krasserm/akka-persistence-kafka/wiki/Releases).
+This version of `akka-persistence-kafka` depends on Kafka 0.8.2.1, Akka 2.4.1 and is cross-built against Scala 2.10.4 and 2.11.7. A complete list of released versions is [here](https://github.com/krasserm/akka-persistence-kafka/wiki/Releases).
 
 Usage hints
 -----------
